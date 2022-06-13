@@ -1,0 +1,24 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "通过VuePress搭建自己的博客MyBlog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy":"bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Singfong/MyBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Singfong/MyBlog/issues"
+  },
+  "homepage": "https://github.com/Singfong/MyBlog#readme"
+  
+}
